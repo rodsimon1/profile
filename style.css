@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Domine|Roboto&display=swap');
+
+/*Pick a nice background-color, font-family, color, font-size and line-height for the <body>.
+Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.). */
+body {
+  margin-top: 30px;
+  background-color: #c1e0f7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+/*Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.),
+you’ll see that the font-size of their headers is quite small.*/
+h1, h2 {
+  font-size: 30px;
+  color: #3c474b;
+  font-family: 'Domine', serif;
+}
+
+img {
+  border-radius: 50%;
+  height: 30%;
+}
+
+
+ul li {
+  padding: 8px;
+  padding-left: 0px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: ;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+
+.card {
+  background-color: white;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px grey;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+#button {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: lightblue;
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 40px;
+  /*margin: 10px;*/
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
